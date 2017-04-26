@@ -1,7 +1,7 @@
-if ('undefined' !== typeof module) {
     inNotify = true;
     type = ['','info','success','warning','danger'];
-    module.exports = function initNotify(from, align){
+
+    function initNotify(from, align){
         color = Math.floor((Math.random() * 4) + 1);
         if (inNotify) {
             $.notify({
@@ -19,4 +19,3 @@ if ('undefined' !== typeof module) {
             inNotify = false;
         }
     }
-}
