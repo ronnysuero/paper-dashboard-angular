@@ -24,7 +24,7 @@
     "rxjs": "^5.1.0",
     "jquery": "~3.1.1",
     "systemjs": "~0.19.41",
-    "angular2-chartist": "~0.10.1",
+    "angular2-chartist": "~0.12.2",
     "chartist": "~0.9.8"
   },
   "devDependencies": {
